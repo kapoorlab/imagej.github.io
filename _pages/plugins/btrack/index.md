@@ -42,13 +42,15 @@ After completing the selection of choosing the images and optional csv file pres
 
 
 **Dynamic slider display**
+
 After the welcome screen the user can only see the view of the input timelapse at the value indicated by the slider embedded into the panel. Moving the slider will interactively update the view along with the overlay of the chosen view.
 
 
 **Deselect and select end points**
+
 After the user clicks on skeletonize buddies the program will use the binary /integer labelled image to obtain skelton end points and show the progress of the computation using the progree bar which is updated along with the time text field next to the time slider. During the calculation all the unnecesary options in the plugin will be frozen. At this stage the user can only set the directory path to save the results in post computation. The calculation is skipped for the timepoints if a csv file is provided at teh start and skeeltonization operation is only performed for the time points that are not present in the csv file. As a use case assume that a claculation was interuppted and the csv file that the program creates when doing the skeletonization operation was incomplete. In this scenario the users can restart the computation using the csv file from the previous session and only compute for the missing timepoints than for the whole timelapse, hence saving valuable analysis time.
 
-After th computation is doen the found skelton end points are displayed in pink, the users can add new points by clicking "a" on the keyboard and a new point will be created at the clicked location, clicking shift + a deselct sht closest point to the click and the color changes from pink to red. In the csv file that we save only the pink colored dots end up in the file.
+After the computation is done the found skelton end points are displayed in pink, the users can add new points by clicking "a" on the keyboard and a new point will be created at the clicked location, clicking shift + a deselct sht closest point to the click and the color changes from pink to red. In the csv file that we save only the pink colored dots end up in the file.
 
 #### Tracking Options
 
