@@ -4,7 +4,7 @@ logo: /media/logos/btrack.png
 categories: [Tracking,Tissue,Skeletonization]
 ---
 
-<img src="/media/icons/btrack.png" width="250"/> 
+<img src="/media/icons/Btrack.png" width="250"/> 
 
 BTrack is a Fiji plugin for tracking growing branches of tissue in 2 and 3D using generic skeletonization implementation of imglib2.
 
@@ -66,8 +66,8 @@ Please note that BTrack is available through Fiji, and is based on a publication
 
 ## Authors
 
-Lead programmer, Mantainer: [Varun Kapoor](/people/kapoorlab)
-Contributor, Debugger: [Claudia Carabana](/people/claudiacarabana)
+Lead programmer, Mantainer: [Varun Kapoor](/_pages/people/kapoorlab)
+Contributor, Debugger: [Claudia Carabana](/_pages/people/claudiacarabana)
 
 ## References
 
