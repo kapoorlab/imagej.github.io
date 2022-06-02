@@ -66,8 +66,8 @@ Please note that BTrack is available through Fiji, and is based on a publication
 
 ## Authors
 
-Lead programmer, Mantainer: [Varun Kapoor](/_pages/people/kapoorlab)
-Contributor, Debugger: [Claudia Carabana](/_pages/people/claudiacarabana)
+Lead programmer, Mantainer: [Varun Kapoor](/_pages/people/kapoorlab.md)
+Contributor, Debugger: [Claudia Carabana](/_pages/people/claudiacarabana.md)
 
 ## References
 
