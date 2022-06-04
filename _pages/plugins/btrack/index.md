@@ -24,8 +24,8 @@ BTrack is a Fiji plugin for tracking growing branches of tissue in 2 and 3D usin
 BTrack is a tool to analyse the growth of branched tissues. A time-lapse can be analysed with this plugin. The file format can be any format readable by Fiji/Bioformats (.tif, .nd2, ... ). To run the tracker select {% include bc path='Plugins|BTrack|Tissue Tracking'%}
 
 A panel to input the Raw and Segmentation files will open. In addition, a csv file containing the information about the end point locations, could be imported instead of the Segmentation file by using the “Reload Saved Budpoints” option. 
+{% include img src="/media/plugins/btrack/welcome.png" %}
 
-<img src="/media/plugins/btrack/welcome.png" width="200"/>
 
 
 #### Microscope Parameters
@@ -33,8 +33,8 @@ The Raw image metadata contains the information about the camera pixel size and 
 
 #### Main Panel
 After completing the selection of the Raw image, as well as the segmentation image (binary/integer labelled) or the optional csv file press the button supplied in the "Done Selection" panel area. At this stage the boundary points of the tissue are computed from the Segmentation image, if the csv file was also inputted the skeleton end points at their respective time frames will be displayed together with the Raw image. A second panel containing computational and interactivity option will open.
+{% include img src="/media/plugins/btrack/main.png" %}
 
-<img src="/media/plugins/btrack/main.png" width="400"/>
 
 #### Interactivity Options
 
