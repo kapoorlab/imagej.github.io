@@ -1,10 +1,10 @@
 ---
 title: Tissue Branch Tracker
-logo: /media/logos/btrack.png
+logo: /media/logos/btrack_logo.png
 categories: [Tracking,Tissue,Skeletonization]
 ---
 
-<img src="/media/icons/btrack.png" width="250"/> 
+<img src="/media/icons/Btrack.png" width="250"/> 
 
 BTrack is a Fiji plugin for tracking growing branches of tissue in 2 and 3D using generic skeletonization implementation of imglib2.
 
@@ -40,11 +40,13 @@ After completing the selection of the Raw image, as well as the segmentation ima
 
 
 **Dynamic slider display**
+
 At this step the user can only see the view of the input timelapse at the specific timepoint indicated by the slider embedded into the panel. Moving the slider will interactively update the image along with the overlay of the chosen timepoint.
 
 
 **Deselect and select end points**
 First, press the button “Skeletonize buddies” to start with the analysis. The program will use the binary /integer labelled image to obtain the skeleton end points. The progrees in the computation analysis is shown by hte progress bar, which is updated along with the time text field next to the time slider. During this calculation step all the unnecessary options in the plugin will be frozen. At this stage the user can only set the directory path to save the results. This calculation step is skipped if a csv file is provided before the skeletonization operation.
+
 
 After th computation is done the found skeleton end points are displayed in pink. The users can add new points by clicking "a" on the keyboard and a new point will be created at the clicked location. By clicking "Shift + a", it will deselct the closest point to the click and the color will change from pink to red. The final pink-coloured dots can be saved in a csv file by pressing “Checkpoint Save”. This csv file can be uploaded in the next session using the previously mentioned “Reload Saved Budpoints” option. 
 #### Tracking Options
@@ -64,8 +66,8 @@ Please note that BTrack is available through Fiji, and is based on a publication
 
 ## Authors
 
-Lead programmer, Mantainer: [Varun Kapoor](/people/kapoorlab)
-Contributor, Debugger: [Claudia Carabana](/people/claudiacarabana)
+Lead programmer, Mantainer: [Varun Kapoor](/_pages/people/kapoorlab.md)
+Contributor, Debugger: [Claudia Carabana](/_pages/people/claudiacarabana.md)
 
 ## References
 
